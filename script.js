@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
     function resetTimer() {
         if (currenttime === 0) {
-            alert("Timer is already at 0")
+            alert("Timer is already at 00:00:00")
         } else {
             clearInterval(intervalTimer)
             currenttime = 0
