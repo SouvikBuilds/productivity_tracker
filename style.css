@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 5%; */
+    margin-left: 30%;
+    height: 100vh;
+    width: 40%;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+button {
+    margin: 4px;
+    padding: 4px 15px;
+    border: 2px solid white;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+#Start:hover {
+    background: transparent;
+    border: 2px solid greenyellow;
+    color: greenyellow;
+    transition: 0.3s ease;
+    text-decoration: underline;
+}
+
+#Pause:hover {
+    background: transparent;
+    border: 2px solid coral;
+    color: coral;
+    transition: 0.3s ease;
+    text-decoration: underline;
+}
+
+#Resume:hover {
+    background: transparent;
+    border: 2px solid orangered;
+    color: orangered;
+    transition: 0.3s ease;
+    text-decoration: underline;
+}
+
+#Reset:hover {
+    background: transparent;
+    border: 2px solid red;
+    color: red;
+    transition: 0.3s ease;
+    text-decoration: underline;
+}
+
+#reset_input:hover {
+    background: transparent;
+    border: 2px solid red;
+    color: red;
+    transition: 0.3s ease;
+    text-decoration: underline;
+}
+
+input {
+    margin: 5px;
+    padding: 4px;
+    border: 1px solid white;
+    border-radius: 6px;
+    background: transparent;
+    color: white;
+}
+
+input::placeholder {
+    color: #fff;
+    text-align: center;
+}
+
+label {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+table tr th {
+    border: 1px solid white;
+    padding: 5px;
+    text-align: center;
+}
+
+table tr {
+    margin: 4px;
+    text-align: center;
+}
+
+table {
+    border: 1px solid white;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+table tr td {
+    border: 1px solid white;
+    padding: 5px;
+    text-align: center;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productivity Tracker Timer</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <h1 id="heading">Productivity Tracker</h1>
+        </div><br><br>
+        <div>
+            <form action="">
+                <label for="input_task">Input Task: </label>
+                <input type="text" name="" id="input_task" placeholder="Enter Task">
+                <button type="reset" id="reset_input">Reset</button>
+            </form>
+        </div><br><br>
+        <div>
+            <h1 id="timer">00:00:00</h1>
+        </div><br><br>
+
+        <div>
+            <button type=" button" id="Start">Start Timer</button>
+            <button type="button" id="Pause">Pause Timer</button>
+            <button type="button" id="Resume">Resume Timer</button>
+            <button type="button" id="Reset">Reset Timer</button>
+        </div><br><br>
+        <div>
+            <table id="taskTable">
+                <thead>
+                    <tr>
+                        <th>Task No</th>
+                        <th>Task Details</th>
+                        <th>Time Taken</th>
+                    </tr>
+                </thead>
+                <tbody id="taskTableBody">
+                    <!-- Dynamic rows will appear here -->
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
